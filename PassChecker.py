@@ -32,7 +32,7 @@ def calculate_entropy(password):
   entropy = length * math.log2(pool_size)
   return entropy, length, pool_size
 
-
+## check how strong a pasword is
 def evaluate_strength(entropy):
   """Evaluates password strength based on entropy bit thresholds."""
   if entropy < 28:

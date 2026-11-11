@@ -1,5 +1,5 @@
 # this is a program that shows an example of a brute-force attack program 
-# this is an example of a phone password generator 
+# this is an example of a phone password generator of 6 digtis
 
 from string import digits 
 
